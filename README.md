@@ -13,7 +13,7 @@ $ git clone git@github.com:ferrivbe/postgres-flyway.git
 
 Change directory into the cloned repository.
 ```console
-$ cd potgres-flyway
+$ cd postgres-flyway
 ```
 
 Use Makefile to deploy containers in docker.
