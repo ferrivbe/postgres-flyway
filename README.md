@@ -22,7 +22,7 @@ $ make up
 ```
 
 ## Container interaction
-Run the project
+Run the project.
 ```console
 $ make up
 ```
