@@ -21,7 +21,7 @@ Use Makefile to deploy containers in docker.
 $ make up
 ```
 
-## Database interaction
+## Container interaction
 Run the project
 ```console
 $ make up
