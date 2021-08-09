@@ -14,6 +14,6 @@ services:
     command: -configFiles=/flyway/conf/flyway.config -locations=filesystem:/flyway/sql -connectRetries=60 migrate
     volumes:
       - ./database:/flyway/sql
-      - ./docker-flyway.config:/flyway/conf/flyway.config
+      - ./config/docker-flyway.config:/flyway/conf/flyway.config
     depends_on:
       - postgres
